@@ -3,16 +3,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AAA</title>
+    <title>Chat Page</title>
     <style>
-        * {
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
             margin: 0;
-            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+        }
+        .chat-container {
+            text-align: center;
+            background-color: white;
+            padding: 20px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            width: 300px;
+        }
+        .chat-name {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .chat-description {
+            font-size: 14px;
+            color: #666;
+            margin-bottom: 20px;
+        }
+        .create-chat-btn {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            text-transform: uppercase;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .create-chat-btn:hover {
+            background-color: #0056b3;
         }
     </style>
 </head>
 <body>
-    <h1>Hello Git</h1>
+    <div class="chat-container">
+        <div class="chat-name">Chat Name</div>
+        <div class="chat-description">Chat description Chat description Chat description Chat description</div>
+        <button class="create-chat-btn">Create new secret chat</button>
+    </div>
 </body>
-<script src="script.js"></script>
 </html>
