@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+document.body.innerHTML = <h1>Hello from JavaScript</h1>
+console.log('Test 2')
+=======
 !DOCTYPE html>
 <html lang="en">
 <head>
@@ -16,3 +20,4 @@
 </body>
 <script src="script.js"></script>
 </html>
+>>>>>>> 90d0a794be81ae468c9dc02f150db697ca40aa2f
